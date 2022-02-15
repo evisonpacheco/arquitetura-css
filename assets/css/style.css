@@ -1,0 +1,24 @@
+header {
+  align-items: center;
+  background: #F9F9F9;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #808080;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+header nav a:last-child {
+  margin-right: 0;
+}
+
+header nav a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
