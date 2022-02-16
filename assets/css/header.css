@@ -1,4 +1,4 @@
-header {
+.header {
   align-items: center;
   background: #F9F9F9;
   padding: 0 2rem;
@@ -7,17 +7,25 @@ header {
   justify-content: space-between;
 }
 
-header nav a {
+.menu-list {
+  display: flex;
+}
+
+.menu-item {
+  list-style: none;
+}
+
+.menu-link {
   color: #808080;
   text-decoration: none;
   margin-right: 1rem;
 }
 
-header nav a:last-child {
+.menu-item:last-child .menu-link {
   margin-right: 0;
 }
 
-header nav a:hover {
+.menu-link:hover {
   color: black;
   font-weight: bold;
   text-decoration: underline;
