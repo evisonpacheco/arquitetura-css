@@ -7,25 +7,25 @@
   justify-content: space-between;
 }
 
-.menu-list {
+.menu__list {
   display: flex;
 }
 
-.menu-item {
+.menu__item {
   list-style: none;
 }
 
-.menu-link {
+.menu__link {
   color: #808080;
   text-decoration: none;
   margin-right: 1rem;
 }
 
-.menu-item:last-child .menu-link {
+.menu__item:last-child .menu__link {
   margin-right: 0;
 }
 
-.menu-link:hover {
+.menu__link:hover {
   color: black;
   font-weight: bold;
   text-decoration: underline;
