@@ -1,0 +1,50 @@
+.recipes {
+  background-color: #E5E5E5;
+  columns: 3;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.recipe {
+  background-color: #FFFFFF;
+  width: 17.875rem;
+  height: 24rem;
+  border: 1px solid #C4C4C4;
+  margin-bottom: 1rem;
+}
+
+.recipe__image {
+  width: 17.875rem;
+  height: 12.3125rem;
+}
+
+.recipe__content {
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+
+.recipe__title {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1.4375rem;
+  color: #000000;
+}
+
+.recipe__description {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 1.1875rem;
+  color: #000000;
+  text-align: justify;
+}
+
+.recipe__button {
+  width: 7.1875rem;
+  height: 2.3125rem;
+  background-color: #8D0606;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border-style: none;
+  padding: 10px;
+  margin-top: 1rem;
+}
