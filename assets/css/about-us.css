@@ -1,0 +1,41 @@
+.about-us {
+  padding: 5rem;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
+.about-us__title {
+  color: #8D0606;
+  margin-bottom: 1rem ;
+  font-family: 'Pacifico', cursive;  
+  font-size: 3.1875rem;
+  font-weight: 400;
+}
+
+.about-us__description {
+  color: #8C8888;
+  font-family: 'Roboto';
+  font-size: 1.75rem;
+  font-weight: 300;
+}
+
+.member__image {
+  border-radius: 50%;
+}
+
+.member__title {
+  color: #8D0606;
+  font-family: 'Roboto';
+  font-size: 2rem;
+}
+
+.member__description {
+  color: #8C8888;
+  font-family: 'Roboto';
+  font-size: 1.4375rem;
+}
