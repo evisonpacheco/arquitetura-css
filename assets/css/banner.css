@@ -1,3 +1,13 @@
+@media screen and (max-width: 768px) {
+  .banner__image {
+    height: calc(100vh - 51px);
+  }
+
+  .banner__title {
+    font-size: 3rem;
+  }
+}
+
 .banner {
   position: relative;
 }
