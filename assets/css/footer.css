@@ -1,0 +1,10 @@
+.footer {
+  background-color: #C4C4C4;
+  text-align: right;
+  text-transform: lowercase;
+  padding: 0.25rem 5rem;
+}
+
+.footer__description {
+  color: #FFFFFF;
+}
