@@ -26,6 +26,7 @@
 
 .member__image {
   border-radius: 50%;
+  width: 100%;
 }
 
 .member__title {
@@ -38,4 +39,14 @@
   color: #8C8888;
   font-family: 'Roboto';
   font-size: 1.4375rem;
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    flex-direction: column;
+  }
+
+  .member {
+    margin-bottom: 2rem;
+  }
 }
